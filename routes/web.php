@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+//WebSite 
+use App\Http\Controllers\Site\Our_groupController ;
+use App\Http\Controllers\Site\SuppliersController ;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/our_group', [Our_groupController ::class, 'index']);
+Route::get('/suppliers', [SuppliersController ::class, 'index']);

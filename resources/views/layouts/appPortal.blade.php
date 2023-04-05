@@ -48,12 +48,12 @@
           <li><a class="nav-link scrollto" href="index.html#about">من نحن</a></li>
           <li><a class="nav-link scrollto" href="index.html#features">خدماتنا</a></li>
           <li><a class="nav-link scrollto" href="index.html#services">مشاريعنا </a></li>
-          <li><a class="nav-link scrollto" href="group.html">مجموعتنا</a></li>
-          <li><a class="nav-link scrollto"  href="suppliers.html">الموردون</a></li>
+          <li><a class="nav-link scrollto" href=" {{URL :: to ('/our_group' )}}"">مجموعتنا</a></li>
+          <li><a class="nav-link scrollto" href=" {{URL :: to ('/suppliers' )}}"">الموردون</a></li>
           <li><a class="nav-link scrollto"  href="blog-details.html">الأخبار</a></li>
           <li><a class="nav-link scrollto" href="index.html#contact">تواصل معنا </a></li>
         </ul>
-
+        
         
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav>
