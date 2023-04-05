@@ -10,7 +10,7 @@
     <div class="d-flex justify-content-between align-items-center">
       <h2>مجموعتنا</h2>
       <ol>
-        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="{{URL :: to ('/' )}}">الرئيسية</a></li>
         <li>مجموعتنا</li>
       </ol>
     </div>
@@ -24,14 +24,15 @@
 
 <div class="clients-slider swiper">
   <div class="swiper-wrapper align-items-center">
-    <div class="swiper-slide"><img src="assets/img/clients/202212221204images.jpeg" class="img-fluid" alt=""></div>
-    <div class="swiper-slide"><img src="assets/img/clients/202211092143logo.png" class="img-fluid" alt=""></div>
-    <div class="swiper-slide"><img src="assets/img/clients/2022122211421500x500.jpeg" class="img-fluid" alt=""></div>
-    <div class="swiper-slide"><img src="assets/img/clients/202211200910logo-5.png" class="img-fluid" alt=""></div>
-    <div class="swiper-slide"><img src="assets/img/clients/132.png" class="img-fluid" alt=""></div>
-    <div class="swiper-slide"><img src="assets/img/clients/202211200911logo.png" class="img-fluid" alt=""></div>
-    <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-    <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+
+    <div class="swiper-slide"><img src="  {{ asset('public/img/clients/202212221204images.jpeg')}}" class="img-fluid" alt=""></div>
+    <div class="swiper-slide"><img src=" {{ asset('public/img/clients/202211092143logo.png')}}g" class="img-fluid" alt=""></div>
+    <div class="swiper-slide"><img src="{{ asset('public/img/clients/2022122211421500x500.jpeg')}}" class="img-fluid" alt=""></div>
+    <div class="swiper-slide"><img src="  {{ asset('public/img/clients/202211200910logo-5.png')}}" class="img-fluid" alt=""></div>
+    <div class="swiper-slide"><img src=" {{ asset('public/img/clients/132.png')}}" class="img-fluid" alt=""></div>
+    <div class="swiper-slide"><img src=" {{ asset('public/img/clients/202211200911logo.png')}}" class="img-fluid" alt=""></div>
+    <div class="swiper-slide"><img src="  {{ asset('public/img/clients/client-7.png')}}" class="img-fluid" alt=""></div>
+    <div class="swiper-slide"><img src=" {{ asset('public/img/clients/client-8.png')}}" class="img-fluid" alt=""></div>
   </div>
 </div>
 
@@ -55,7 +56,7 @@
 
   <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
     <div class="img">
-      <img src="assets/img/easygocat2.png" alt="" class="img-fluid">
+      <img src="{{ asset('public/img/easygocat2.png')}}"   alt="" class="img-fluid">
     </div>
   </div>
 
@@ -81,7 +82,7 @@
 
   <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
     <div class="img">
-      <img src="assets/img/65656.png" alt="" class="img-fluid">
+      <img src="{{ asset('public/img/65656.png')}}" alt="" class="img-fluid">
     </div>
   </div>
 

@@ -36,7 +36,7 @@
   <!-- Logo -->
   <header id="header" class="header fixed-top" data-scrollto-offset="0">
     <div class="container-fluid d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+      <a href="{{URL :: to ('/' )}}" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
       <img src=" {{ asset('public/img/File12023_1_3_125351_d4bf76.png')}}" alt="">
       </a>
 
@@ -44,14 +44,14 @@
   <!-- Main-menu -->
   <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="index.html"><span>الرئيسية</span> </a></li>
-          <li><a class="nav-link scrollto" href="index.html#about">من نحن</a></li>
-          <li><a class="nav-link scrollto" href="index.html#features">خدماتنا</a></li>
-          <li><a class="nav-link scrollto" href="index.html#services">مشاريعنا </a></li>
+          <li><a class="nav-link scrollto" href="{{URL :: to ('/' )}}"><span>الرئيسية</span> </a></li>
+          <li><a class="nav-link scrollto" href="{{URL :: to ('/' )}}#about">من نحن</a></li>
+          <li><a class="nav-link scrollto" href="{{URL :: to ('/' )}}#features">خدماتنا</a></li>
+          <li><a class="nav-link scrollto" href="{{URL :: to ('/' )}}#services">مشاريعنا </a></li>
           <li><a class="nav-link scrollto" href=" {{URL :: to ('/our_group' )}}"">مجموعتنا</a></li>
           <li><a class="nav-link scrollto" href=" {{URL :: to ('/suppliers' )}}"">الموردون</a></li>
           <li><a class="nav-link scrollto"  href="blog-details.html">الأخبار</a></li>
-          <li><a class="nav-link scrollto" href="index.html#contact">تواصل معنا </a></li>
+          <li><a class="nav-link scrollto" href="{{URL :: to ('/' )}}#contact">تواصل معنا </a></li>
         </ul>
         
         
@@ -94,11 +94,11 @@
 <div class="col-lg-2 col-md-7 footer-links">
             <h4>روابط</h4>
             <ul>
-              <li><i class="bi bi-chevron-left"></i> <a href="#">الرئيسية</a></li>
+              <li><i class="bi bi-chevron-left"></i> <a href="{{URL :: to ('/' )}}">الرئيسية</a></li>
               <li><i class="bi bi-chevron-left"></i> <a href="#">من نحن</a></li>
               <li><i class="bi bi-chevron-left"></i> <a href="#">خدماتنا</a></li>
               <li><i class="bi bi-chevron-left"></i> <a href="#">مشاريعنا</a></li>
-              <li><i class="bi bi-chevron-left"></i> <a href="#">مجموعتنا</a></li>
+              <li><i class="bi bi-chevron-left"></i> <a href="{{URL :: to ('/our_group' )}}">مجموعتنا</a></li>
               <li><i class="bi bi-chevron-left"></i> <a href="#">الأخبار</a></li>
               <li><i class="bi bi-chevron-left"></i> <a href="#">تواصل معنا</a></li>
             </ul>

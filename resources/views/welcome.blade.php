@@ -266,7 +266,7 @@
                
               </div>
               <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                <img src="img/features-1.svg" alt="" class="img-fluid">
+                <img src=" {{ asset('public/img/features-1.svg')}}" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content 1 -->
