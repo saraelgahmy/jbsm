@@ -43,7 +43,7 @@
   
             <div class="col-lg-5">
               <div class="about-img">
-                <img src="img/download (1) .png" class="img-fluid" alt="">
+                <img src="{{ asset('public/img/download (1) .png')}}" class="img-fluid" alt="">
               </div>
             </div>
   
@@ -292,7 +292,7 @@
                 </ul>
               </div>
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="img/features-2.svg" alt="" class="img-fluid">
+                <img src="{{ asset('public/img/features-2.svg')}}" alt="" class="img-fluid>
               </div>
             </div>
           </div><!-- End Tab Content 2 -->
@@ -317,7 +317,7 @@
             
               </div>
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="img/features-3.svg" alt="" class="img-fluid">
+                <img src="{{ asset('public/img/features-3.svg')}}" alt="" class="img-fluid>
               </div>
             </div>
           </div><!-- End Tab Content 3 -->
