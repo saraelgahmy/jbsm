@@ -437,8 +437,10 @@
 
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
+
               <div class="img">
-                <img src="img/services-2.jpg" class="img-fluid" alt="">
+                
+                <img src="img/services-2.jpg" class="img-fluid" alt=""> 
               </div>
               <div class="details position-relative">
                 <div class="icon">
