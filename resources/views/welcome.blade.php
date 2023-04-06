@@ -43,7 +43,7 @@
   
             <div class="col-lg-5">
               <div class="about-img">
-                <img src="{{ asset('public/img/download (1) .png')}}" class="img-fluid" alt="">
+                <img src= "{{ asset('public/img/download (1) .png')}}" class="img-fluid" alt="">
               </div>
             </div>
   
@@ -292,7 +292,8 @@
                 </ul>
               </div>
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="{{ asset('public/img/features-2.svg')}}" alt="" class="img-fluid>
+                <img src="{{ asset('public/img/features-2.svg')}}"class="img-fluid">
+
               </div>
             </div>
           </div><!-- End Tab Content 2 -->
@@ -317,7 +318,7 @@
             
               </div>
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="{{ asset('public/img/features-3.svg')}}" alt="" class="img-fluid>
+              <img src="{{ asset('public/img/features-3.svg')}}"class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content 3 -->
@@ -344,7 +345,7 @@
                 </ul>
               </div>
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="{{ asset('public/img/features-4.svg')}}" alt="" class="img-fluid>
+                <img src="img/features-4.svg" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content 4 -->
@@ -370,7 +371,7 @@
                 </ul>
               </div>
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="{{ asset('public/img/features-5.svg')}}" alt="" class="img-fluid>
+                <img src="img/features-5.svg" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content 5 -->
@@ -396,7 +397,7 @@
                 </ul>
               </div>
               <div class="col-lg-4 order-1 order-lg-2 text-center">
-                <img src="{{ asset('public/img/features-6.svg')}}" alt="img-fluid">
+                <img src="img/features-6.svg" alt="" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content 6 -->
@@ -406,7 +407,7 @@
       </div>
     </section><!-- End Features Section -->
 
-    
+    <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container" data-aos="fade-up">
 
@@ -421,7 +422,7 @@
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
               <div class="img">
-                <img src="{{ asset('public/img/services-1.jpg" alt="">
+                <img src="img/services-1.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
@@ -437,10 +438,8 @@
 
           <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
-
               <div class="img">
-                
-                <img src="img/services-2.jpg" class="img-fluid" alt=""> 
+                <img src="img/services-2.jpg" class="img-fluid" alt="">
               </div>
               <div class="details position-relative">
                 <div class="icon">
