@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 //WebSite 
 use App\Http\Controllers\Site\Our_groupController ;
 use App\Http\Controllers\Site\SuppliersController ;
+use App\Http\Controllers\Site\NewsController ;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,3 +22,4 @@ Route::get('/', function () {
 
 Route::get('/our_group', [Our_groupController ::class, 'index']);
 Route::get('/suppliers', [SuppliersController ::class, 'index']);
+Route::get('/news', [NewsController ::class, 'index']);

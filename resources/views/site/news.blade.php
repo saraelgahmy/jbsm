@@ -19,7 +19,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>الأخبار</h2>
           <ol>
-            <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="{{URL :: to ('/' )}}">الرئيسية</a></li>
             <li>الأخبار</li>
           </ol>
         </div>

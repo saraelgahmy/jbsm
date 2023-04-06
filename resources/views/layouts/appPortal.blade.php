@@ -50,7 +50,7 @@
           <li><a class="nav-link scrollto" href="{{URL :: to ('/' )}}#services">مشاريعنا </a></li>
           <li><a class="nav-link scrollto" href=" {{URL :: to ('/our_group' )}}"">مجموعتنا</a></li>
           <li><a class="nav-link scrollto" href=" {{URL :: to ('/suppliers' )}}"">الموردون</a></li>
-          <li><a class="nav-link scrollto"  href="blog-details.html">الأخبار</a></li>
+          <li><a class="nav-link scrollto"  href=" {{URL :: to ('/news' )}}"">الأخبار</a></li>
           <li><a class="nav-link scrollto" href="{{URL :: to ('/' )}}#contact">تواصل معنا </a></li>
         </ul>
         
